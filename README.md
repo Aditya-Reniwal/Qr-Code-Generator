@@ -19,3 +19,30 @@ Make sure you have **Node.js** installed on your machine. Then follow these step
    ```bash
    git clone https://github.com/your-username/qr-code-generator.git
    cd qr-code-generator
+2. Install dependencies:
+   ```bash
+   npm install
+
+--- 
+## 📦 Dependencies
+
+This project uses the following npm packages:
+
+- inquirer: For capturing user input via CLI
+  ``` bash
+  npm install inquirer
+- qr-image: For generating QR cod
+  ``` bash
+  npm install qr-image
+
+---
+## ⚙️ Usage
+
+1. Run the application:
+   ```bash
+   node index.js
+2. Enter the URL when prompted: 
+   ```bash
+   ? Type your URL: https://example.com
+3. A QR code image (qr-img.png) will be generated in your project folder.
+---   
